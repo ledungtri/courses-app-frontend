@@ -1,0 +1,20 @@
+.MuiFormGroup-root {
+  display: flex;
+  justify-content: space-around;
+}
+
+.MuiTextField-root {
+  margin: 58px;
+}
+
+form > .MuiFormGroup-root {
+  margin: 10px;
+}
+
+form > .MuiFormGroup-root > .MuiFormLabel-root {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}

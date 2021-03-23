@@ -1,0 +1,43 @@
+@import url("reset.css");
+@import url("table.css");
+@import url("form.css");
+
+html {
+  background-color: dimgray;
+}
+
+header,
+footer {
+  padding: 5px;
+}
+
+header {
+  background-color: lightcyan;
+  text-align: center;
+}
+
+body {
+  color: dimgray;
+  background-color: azure;
+  box-shadow: 0px 0px 10px 5px rgb(10, 10, 10);
+  min-width: 320px;
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0px auto;
+}
+
+footer {
+  background-color: lightcyan;
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+}
