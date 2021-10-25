@@ -13,8 +13,10 @@ function Courses() {
 
   const fetchData = async () => {
     axios
-      .get("http://localhost:3000/courses")
-      .then((res) => setCourses(res.data));
+      .get("http://156.67.219.138:3501/api/courses")
+      .then((res) => {
+        setCourses(res.data.data)
+      });
   };
 
   const columns = [
@@ -30,13 +32,8 @@ function Courses() {
   return (
     <Fragment>
       <h1>Courses</h1>
-      <DataTable rows={courses} columns={columns}></DataTable>
-      <Button
-        color="primary"
-        href="/courses/new"
-        variant="outlined"
-        startIcon={<AddIcon />}
-      >
+      <DataTable rows={courses} columns={columns}/>
+      <Button color="primary" href="/courses/new" variant="outlined"startIcon={<AddIcon />} >
         Add Course
       </Button>
     </Fragment>

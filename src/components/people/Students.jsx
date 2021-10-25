@@ -32,12 +32,7 @@ function Students() {
     <Fragment>
       <h1>Students</h1>
       <DataTable rows={students} columns={columns} />
-      <Button
-        color="primary"
-        href="/people/new"
-        variant="outlined"
-        startIcon={<AddIcon />}
-      >
+      <Button color="primary" href="/people/new" variant="outlined" startIcon={<AddIcon/>}>
         Add Person
       </Button>
     </Fragment>

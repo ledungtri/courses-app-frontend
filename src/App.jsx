@@ -8,9 +8,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Fragment>
-      <Header></Header>
-      <Body></Body> 
-      <Footer></Footer>
+      <Header/>
+      <Body/>
+      <Footer/>
     </Fragment>
   );
 }

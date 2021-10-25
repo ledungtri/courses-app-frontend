@@ -8,8 +8,8 @@ function PersonDetail() {
             <h1>Person Name</h1>
             Name DOB, Phone, Email
 
-            <EnrolledCourses></EnrolledCourses>
-            <InstructingCoures></InstructingCoures>
+            <EnrolledCourses/>
+            <InstructingCoures/>
         </Fragment>
     );
 }

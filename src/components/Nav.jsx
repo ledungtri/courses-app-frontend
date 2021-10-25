@@ -16,9 +16,9 @@ const NavBar = withStyles({
 function Nav() {
     return ( 
         <NavBar>
-            <NavLink href="/courses" label="Courses"></NavLink>
-            <NavLink href="/students" label="Students"></NavLink>
-            <NavLink href="/instructors" label="Instructors"></NavLink>
+            <NavLink href="/courses" label="Courses"/>
+            <NavLink href="/students" label="Students"/>
+            <NavLink href="/instructors" label="Instructors"/>
         </NavBar>
     );
 }
