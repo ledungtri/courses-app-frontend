@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import EnrolledCourses from "../courses/enrolledCourses";
-import InstructingCoures from "../courses/instructingCoures";
+import EnrolledCourses from "../components/courses/enrolledCourses";
+import InstructingCoures from "../components/courses/instructingCoures";
 
 function PersonDetail() {
     return ( 

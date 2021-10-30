@@ -1,6 +1,5 @@
 import React, { Fragment, useReducer } from "react";
-import axios from "axios";
-import { Button, TextField } from "@material-ui/core";
+import {Button, TextField} from "@mui/material";
 
 function CourseForm(props) {
   const [course, setFormInput] = useReducer(
@@ -10,7 +9,7 @@ function CourseForm(props) {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    axios.post("http://localhost:3000/courses", course);
+    // axios.post("http://localhost:3000/courses", course);
     props.history.push("/courses");
   };
 
